@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    padding-top: 1rem;
+    display: flex;
+    background-color: #1f2937;
+    color: white;   
+}
+
+#logo{
+    flex: 1;
+    margin-left: 8rem;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    margin-right: 7rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+#main{
+    padding-top: 5rem;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+#image-placeholder{
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#main-title{
+    text-align:left ;
+}
+
+button{
+    background-color: #4065a0;
+    color: #f9faf8;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#random-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding-bottom: 5rem;
+}
+
+.subtext{
+    margin-top: 10px;
+    border: 2px solid rgb(4, 4, 214);
+    height: 100px;
+    width: 100px;
+    border-radius: 1rem;
+}
+
+h2{
+    margin-top: 1rem;
+    text-align: center;
+    color: #091930;
+
+}
+
+#outro{
+    padding-top: 5rem;
+    height: 100px;
+    background-color: #e5e7eb;
+    text-align: center;
+    justify-content: center;
+}
+
+#Thor{
+    text-align: right;
+    margin-right: 10rem;
+}
+
+footer{
+    background-color: #091930;
+    text-align: center;
+    color: white;
+}
